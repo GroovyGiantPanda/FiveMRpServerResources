@@ -1,5 +1,4 @@
 # Source Code
-----------
 Hi! I'm an ex-developer for The Family RP releasing my part of the source code. This is not the full project, but 60+% of the project counted by lines of code ([#](https://i.imgur.com/lHE9VJm.png)) at the time I left in the middle of November. I was planning to release this months ago, but just never got around to it.
 
 I have excluded other developers' code from this release as good as I possibly could. (Do contact me if there is something else you would like me to see removed or if I did not credit you.) Due to this, you will have to fill in the gaps yourself or ask nicely.
@@ -7,7 +6,6 @@ I have excluded other developers' code from this release as good as I possibly c
 Expect bugs that are not on the live server--they have been fixed by the other developer gods after I left.
 
 # Featured Contents
-----------
 
 **(Interaction) Menu**: This includes the full source for the menu system used on The Family RP. I wanted to write a framework that was able to recreate the vanilla GTA menus and make it as compat as possible, and would say I more than succeeded. Allows for all kinds of extensibility and includes checkboxes, listboxes and anything else you can think of. Includes e.g. the emote menu ([video](https://streamable.com/izku5)) as an example (along with all the other menus listed below.) Allows for quick implementation of everything from shops to settings menus and has over 30 customizable variables out of the box. The difference between this menu system and nearly all others is how it is rendered--this draws the menu directly using primitives, while other menu systems are HTML-based (block Push-to-Talk keys while open, hog FPS...)
 
@@ -101,18 +99,13 @@ Expect bugs that are not on the live server--they have been fixed by the other d
 **A Large Number of Other Things**: There are a large number of things I excluded here that will come at a later point in time or that I didn't mention here for brevity. I cut way more stuff than I had to just because I could not be bothered to separate my stuff from my fellow developers'. I'll also be adding a number of new resources that are not on The Family RP (or anywhere else) when I get around to it. If there is anything in particular you would like to know about, feel free to ask.
 
 ## License
-----------
 This is under the [MIT License](https://choosealicense.com/licenses/mit/), which is basically the most permissive widely used license out there. If you release a derivative work, include credit to the linked GitHub so others know where to find the rest (unless you make significant alterations, in which case you can do whatever you feel like doing).
 
 ## Why C#?
-----------
 There are many reasons we went with C#. Three good reasons are better performance (up to 10x faster than Lua), its static typing and _much_ better support for object-oriented development. Subjectively, it allows for integration of different modules into a whole on a completely different level.
 
 ## Enjoy!
-----------
 Hopefully some of you find this codebase helpful and/or educational!
-
-Please keep the comments as free from drama as possible. PM me instead of bringing dirt up here. Feel free to **post any potential questions**, though, and I will do my best to answer them.
 
 I will add this to the subreddit closed-message in the old subreddit [/r/GTAVRPClips](http://www.reddit.com/r/GTAVRPClips/) so you always have a way to find it. (Don't worry; that subreddit is not coming back. Submissions will remain approval only and this subreddit will remain linked via sticky.) It will also remain permanently available on the GitHub.
 
