@@ -1,0 +1,28 @@
+{
+  "name": "bots",
+  "version": "1.0.0",
+  "description": "A variety of GTA RP Bots",
+  "main": "DiscordBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.10.0",
+    "jsdom": "^11.2.0",
+    "lodash": "^4.17.4",
+    "net": "^1.0.2",
+    "path": "^0.12.7",
+    "ping": "^0.2.2",
+    "request": "^2.82.0",
+    "request-progress": "^3.0.0",
+    "simple-node-logger": "^0.93.30",
+    "snoowrap": "^1.14.2",
+    "underscore": "^1.8.3"
+  }
+}

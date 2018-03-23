@@ -1,0 +1,177 @@
+body
+{
+    background-color: transparent;
+    margin: 0px;
+    font-family: "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji",  Arial, sans-serif;
+}
+
+ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#chat
+{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    padding: 7px;
+    width: 30%;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji",  Arial, sans-serif;
+    color: #fff;
+    text-shadow: 1px 0 1px #000, 0 -1px 1px #000, 0 1px 1px #000, -1px 0 1px #000;
+    overflow: hidden;
+}
+
+input.fake
+{
+    position: absolute;
+    top: -10000px;
+    left: -10000px;
+}
+
+#chatInputHas
+{
+    display: none;
+    height: 400px;
+}
+
+#chatInputHas strong
+{
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    position: relative;
+    padding: 3px;
+    padding-left: 0px;
+    height: 200px;
+    margin-right: 4px;
+    line-height: 26px;
+}
+
+#chatInput
+{
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    padding: 3px;
+    position: absolute;
+
+    display: inline;
+    line-height: 26px;
+
+    margin: 0px;
+    color: #fff;
+
+    font: inherit;
+
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#chatInput * > div:first-child
+{
+    display: inline;
+    word-wrap: break-word;
+    line-height: 26px;
+}
+
+#chatInput .caret
+{
+    display: inline;
+    min-width: 1px;
+    height: 22px;
+    line-height: 26px;
+
+    word-wrap: break-word;
+    vertical-align: top;
+    background-color: #fff;
+    text-shadow: 1px 0 1px #000, 0 -1px 1px #000, 0 1px 1px #000, -1px 0 1px #000;
+    color: white;
+}
+
+#chatInput div
+{
+    display: inline;
+}
+
+#chatBuffer
+{
+    height: 240px;
+    overflow: hidden;
+}
+
+#pageIndicators
+{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    color: #fff;
+    text-shadow: 1px 0 1px #000, 0 -1px 1px #000, 0 1px 1px #000, -1px 0 1px #000;
+}
+
+#PgDnIndicator
+{
+    position: relative;
+    top: 210px;
+    opacity: 0;
+}
+
+.arrow
+{
+    font-size: 26px;
+}
+
+.color-1{color: #ff4444;}
+.color-2{color: #99cc00;}
+.color-3{color: #ffbb33;}
+.color-4{color: #0099cc;}
+.color-5{color: #33b5e5;}
+.color-6{color: #aa66cc;}
+.color-8{color: #cc0000;}
+.color-9{color: #cc0000;}
+
+.bouncedown
+{
+    animation-name: bouncedown;
+}
+
+.bounceup
+{
+    animation-name: bounceup;
+}
+
+.animated
+{
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 2s;
+}
+
+@keyframes bouncedown
+{
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+
+@keyframes bounceup
+{
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(30px);}
+    60% {transform: translateY(15px);}
+}
+
+.PgText
+{
+    font-size: 16px;
+}
+
+#pgDnIndicator
+{
+    opacity: 0;
+}

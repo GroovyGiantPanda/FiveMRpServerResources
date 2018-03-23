@@ -1,0 +1,67 @@
+This document serves to keep track of authors whose assets we are using to abide law and respect copyright licenses involved once the product releases.
+Their names will have to be recorded in a credits section. The list below should be in order of importance with the exception of our own team which is alphabetical.
+
+FROM-SCRATCH PROJECT ONLY
+
+
+Grand Theft Auto 5	Take-Two Interactive Software, Inc.
+			Rockstar Games, Inc.
+
+FiveM			fivem.net
+
+[FamilyRP]
+Development		BoxxiPlays
+			Bucky Savage
+			Blcd
+			ClassyPax
+			Coffeelot
+			Eli Thompson
+			FinKone
+			Hazard
+			ITZ_A_BERRRRR
+			Jedi
+			KarashiGensai
+			KatieRouu
+			Lily
+			LSG
+			Mandie
+			Mints
+			Mooshe
+			MsQuerade
+			PentaHearth
+			PirateCat
+			PMSProxy
+			Pydrex
+			RiC0_MD
+			Thadrius
+			Timmac
+			Timothy Dexter
+			TournyMasterBot
+			Wish
+			((add names of people who worked on the concept (pitched ideas, provided information, trello cards)))
+
+Programming		BoxxiPlays
+			Blcd
+			Jedi
+			KarashiGensai
+			Mandie
+			Mooshe
+			MsQuerade
+			PirateCat
+			Timothy Dexter
+			RiC0_MD
+			TournyMasterBot
+
+Graphic design		Lily
+
+Iconography		Lily
+			...
+			...
+			((add authors of third party icons))
+
+Typography		...
+			...
+			...
+			((add authors of fonts))
+
+[Third party resources]
