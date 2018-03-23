@@ -102,7 +102,7 @@ Expect bugs that are not on the live server--they have been fixed by the other d
 This is under the [MIT License](https://choosealicense.com/licenses/mit/), which is basically the most permissive widely used license out there. If you release a derivative work, include credit to the linked GitHub so others know where to find the rest (unless you make significant alterations, in which case you can do whatever you feel like doing).
 
 ## Why C#?
-There are many reasons we went with C#. Three good reasons are better performance (up to 10x faster than Lua), its static typing and _much_ better support for object-oriented development. Subjectively, it allows for integration of many different modules into a whole on a completely different level. Visual Studio/IntelliSense and Resharper are also too good to live without. The higher performance of C# also means a lot less CPU hogging if you intend to intensive tasks like iterate the GTA entity pools with high frequency.
+There are many reasons we went with C#. Three good reasons are better performance (up to 10x faster than Lua), its static typing and _much_ better support for object-oriented development. Subjectively, it allows for integration of many different modules into a whole on a completely different level. Visual Studio/IntelliSense and Resharper are also too good to live without. The higher performance of C# also means a lot less CPU hogging if you intend to perform intensive tasks like iterating the GTA entity pools with high frequency.
 
 ## Enjoy!
 Hopefully some of you find this codebase helpful and/or educational!
