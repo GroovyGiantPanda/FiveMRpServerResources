@@ -76,7 +76,7 @@ Expect bugs that are not on the live server--they have been fixed by the other d
 
 **Dev Tools**: Sort of like a C# server-side trainer. Allows you to e.g. spawn any vehicle, pedestrian or object you can think of by typing only partial search terms. Includes features like no-clip, the ability to move and rotate most of the objects in the world by looking at them and pressing a hotkey or grab the object hash of any object in the world as well as the ability to load any custom interior in GTA. ([video A](https://streamable.com/2g6i9), [video B](https://streamable.com/sx1xq))
 
-**Fuel Manager**: Adds fuel and refueling as a concept.
+**Fuel Manager**: Adds fuel and refueling as a concept. Allows for detailed configuring of fuel consumption either on vehicle class or vehicle model level.
 
 **Other Vehicle Features**: Window and door sub-menus (for opening/closing) and realistic turn signals, cruise control.
 
