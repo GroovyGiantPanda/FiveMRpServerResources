@@ -105,8 +105,6 @@ There are many reasons we went with C#. Three good reasons are better performanc
 ## Enjoy!
 Hopefully some of you find this codebase helpful and/or educational!
 
-I will add this to the subreddit closed-message in the old subreddit [/r/GTAVRPClips](http://www.reddit.com/r/GTAVRPClips/) so you always have a way to find it. (Don't worry; that subreddit is not coming back. Submissions will remain approval only and this subreddit will remain linked via sticky.) It will also remain permanently available on the GitHub.
-
-Also, a large thanks to all the The Family developers and the rest of the community for the great couple of months we spent together. 
+A large thanks to all the The Family developers and the rest of the community for the great couple of months we spent together. 
 
 _So long and thanks for all the fish!_
