@@ -109,4 +109,4 @@ I will add this to the subreddit closed-message in the old subreddit [/r/GTAVRPC
 
 Also, a large thanks to all the The Family developers and the rest of the community for the great couple of months we spent together. 
 
-**So long and thanks for all the fish!**
+_So long and thanks for all the fish!_
