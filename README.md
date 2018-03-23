@@ -51,22 +51,20 @@ Expect bugs that are not on the live server--they have been fixed by the other d
 **C# rewrite of FiveM SessionManager/SpawnManager/MapManager**: As I had sort of a dream of a server completely devoid of any Lua code, I decided to rewrite the FiveM SessionManager/SpawnManager/MapManager completely, in C#. This also lead to a lot of fat being trimmed. (For example, we never use the built-in configuration options, so it was rather unnecessary.)
 
 **AFK Kick**: A sample AFK kick feature.
-
-**Dev Tools**: Sort of like a C# server-side trainer. Allows you to e.g. spawn any vehicle, pedestrian or object you can think of by typing only partial search terms. Includes features like no-clip, the ability to move and rotate most of the objects in the world by looking at them and pressing a hotkey or grab the object hash of any object in the world as well as the ability to load any custom interior in GTA. ([video A](https://streamable.com/2g6i9), [video B](https://streamable.com/sx1xq))
  
 **Key Code Tester**: If you are a server developer this may be a useful tool. Instead of having to consult key lookup tables online you can turn it on and see all the key codes a single key press activates. ([video](https://streamable.com/edznf))
+
+**Prototype Fishing and Hunting**: If you ever want to implement a fishing mini-game on your server, you probably want to use this method for water detection instead of the GTA natives. The GTA natives often give false readings, while this neat hack uses a completely different method. The hunting prototype also shows the power of the pool iteration natives that the FiveM developers added.
  
 **Control Binds Class**: This is a C# class that makes it really easy to handle binds, with and without modifiers (like CTRL/SHIFT/ALT or any combination of those.) Has saved a ton of time.
 
-**Custom JSON (De-)Serializer**: As a lot of UI is "NUI", or Chromium/web-based, this is a minimalistic JSON serializer to make communication easier when such is needed on the client-side (since FiveM does not include the necessary libraries for this on the client-side, I ended up simply writing my own serializer.) It also includes a nearly finished JSON deserializer.
-
 **Blip Spawner and Marker Handler**: These classes centralize the process of adding blips (the minimap things) and markers (the ground circles) and makes these easier to manage, by e.g. allowing for the filtering of blips by category.
 
-**Warp Points System**: Similar to above to make the addition of warp points as easy as possible. Has support for automatic loading and unloading of both interiors and interior prop sets.
+**Car AI/Locks**: This locks parked and running cars in the world with different probabilities. One feature is if a car is locked in traffic and you try to break in, all nearby cars lock their doors and run away. Also e.g. has a higher probability of running cars locking their doors if you have a weapon out. Includes lockpicking feature (but not the final one that is on the server.)
 
 **Civilian Car Cop Lights**: Another pretty silly idea that allows civilian cars to become impromptu cop cars by simply swiftly shifting the car underglow between red/blue.
 
-**Weapon Unholster Alerts**: This was a feature on SoE that was replicated for TF but was replaced with another feature upon launch.
+**Warp Points System**: Similar to above to make the addition of warp points as easy as possible. Has support for automatic loading and unloading of both interiors and interior prop sets.
 
 **All Kinds of Other Time-Saving Classes**:  There are a bunch of other classes I think a developer may find helpful or educational, including the TriggerEventFor* classes which I find to be one semi-neat way to speed up development.
 
@@ -74,9 +72,9 @@ Expect bugs that are not on the live server--they have been fixed by the other d
 
 **Drivable, Derailable Trains**: Yes, those trains! If you ever wanted to know what happened to these - they were never tested properly in multiplayer until after the TwitchCon event. Probably a good idea... In multiplayer it turned out that trains stuttered noticeably for other players and it was not something easily resolved. ([Freight](https://streamable.com/ydz0q), [Metro](https://streamable.com/y3di6))
 
-**Prototype Fishing and Hunting**: If you ever want to implement a fishing mini-game on your server, you probably want to use this method for water detection instead of the GTA natives. The GTA natives often give false readings, while this neat hack uses a completely different method. The hunting prototype also shows the power of the pool iteration natives that the FiveM developers added.
+**Custom JSON (De-)Serializer**: As a lot of UI is "NUI", or Chromium/web-based, this is a minimalistic JSON serializer to make communication easier when such is needed on the client-side (since FiveM does not include the necessary libraries for this on the client-side, I ended up simply writing my own serializer.) It also includes a nearly finished JSON deserializer.
 
-**Car AI/Locks**: This locks parked and running cars in the world with different probabilities. One feature is if a car is locked in traffic and you try to break in, all nearby cars lock their doors and run away. Also e.g. has a higher probability of running cars locking their doors if you have a weapon out. Includes lockpicking feature (but not the final one that is on the server.)
+**Dev Tools**: Sort of like a C# server-side trainer. Allows you to e.g. spawn any vehicle, pedestrian or object you can think of by typing only partial search terms. Includes features like no-clip, the ability to move and rotate most of the objects in the world by looking at them and pressing a hotkey or grab the object hash of any object in the world as well as the ability to load any custom interior in GTA. ([video A](https://streamable.com/2g6i9), [video B](https://streamable.com/sx1xq))
 
 **Fuel Manager**: Adds fuel and refueling as a concept.
 
